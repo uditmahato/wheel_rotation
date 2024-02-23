@@ -1,0 +1,98 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa; /* Background color */
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .prizewheel {
+        display: flex;
+      }
+      
+    .container {
+      width: 90%;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #ffffff; /* Container background color */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center; /* Center align content */
+    }
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #dc3545; /* Heading color */
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #343a40; /* Paragraph color */
+    }
+    .prizes {
+    flex: 1;
+      margin-top: 20px;
+      text-align: left;
+      margin-left: 20px!important;
+    }
+    .prizes h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #343a40; /* Heading color */
+    }
+    .prizes ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .prizes li {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #343a40; /* Text color */
+    }
+    .logo {
+        flex: 1;
+        text-align: right;
+      margin-top: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #343a40; /* Label color */
+    }
+    .form-group input {
+      width: calc(100% - 22px);
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ced4da; /* Input border color */
+      border-radius: 5px;
+      background-color: #f8f9fa; /* Input background color */
+      color: #343a40; /* Input text color */
+      margin-top: 5px;
+    }
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      font-size: 20px;
+      background-color: #dc3545; /* Button background color */
+      color: #ffffff; /* Button text color */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .form-group button:hover {
+      background-color: #c82333; /* Button background color on hover */
+    }

@@ -1,26 +1,47 @@
-  <html>
-    <head>
-      <title>Movie Selector</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body> 
-    <div id="mainbox" class="mainbox">
-      <div id="box" class="box">
-        <div class="box1">
-          <span class="span1"><b>2nd Chance</b></span>
-          <span class="span2"><b>You Lose</b></span>
-          <span class="span3"><b>Mug</b></span>
-          <span class="span4"><b>Pen</b></span>
-        </div>
-        <div class="box2">
-          <span class="span1"><b>You Lose</b></span>
-          <span class="span2"><b>Notebook</b></span>
-          <span class="span3"><b>You lose</b></span>
-          <span class="span4"><b>Notebook</b></span>
-        </div>
-      </div> 
-      <button class="spin" onclick="myfunction()">Spin!</button>
-    </div>
-    <script src="script.js"></script>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunway Spin</title>
+  <link href="style/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sunway Wheel Spin</h1>
+    <p>Spin the wheel to win exciting prizes from <br><b>Sunway College Kathmandu!</b></p>
+    <div class="prizewheel">
+      <div class="prizes">
+        <h2>Prizes:</h2>
+        <ul>
+          <li>1. Mug</li>
+          <li>2. Pen</li>
+          <li>3. Notebook</li>
+          <li>4. T-shirt</li>
+          <li>5. Sticker</li>
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="assets/wheel.png" alt="Spin Logo">
+      </div>
+    </div>    
+    <form action="main.html">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="number">Number:</label>
+        <input type="text" id="number" name="number" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Play Now</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
