@@ -1,29 +1,30 @@
   <html>
     <head>
-      <title>Movie Selector</title>
+      <title>Sunway Wheel Spin</title>
       <link href="style/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body> 
     <div class="heading"><h1>Dive into the Sunway Wheel Spin Game and let AI check your luck</h1></div>
     <div>
     <div id="mainbox" class="mainbox">
+      <audio id="spinSound" src="assets/sound/spin.mp3"></audio>
       <div id="box" class="box">
         <div class="box1">
           <span class="span1"><b>2nd Chance</b></span>
-          <span class="span2"><b>You Lose</b></span>
+          <span class="span2"><b>Pen</b></span>
           <span class="span3"><b>Mug</b></span>
-          <span class="span4"><b>Pen</b></span>
+          <span class="span4"><b>You Lose</b></span>
         </div>
         <div class="box2">
           <span class="span1"><b>You Lose</b></span>
           <span class="span2"><b>Notebook</b></span>
-          <span class="span3"><b>You lose</b></span>
+          <span class="span3"><b>Tshirt</b></span>
           <span class="span4"><b>Notebook</b></span>
         </div>
       </div> 
       <button class="spin" onclick="myfunction()">Spin!</button> <!-- Call the rotateWheel function -->
     </div>
   </div>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
     </body>
   </html>

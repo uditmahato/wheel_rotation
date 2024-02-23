@@ -24,7 +24,7 @@ body{
 }
 .heading h1{
   letter-spacing: 2;
-  font-family:;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:50;
 }
 .mainbox{
@@ -120,7 +120,7 @@ width: 75px;
 height: 75px;
 border-radius: 50%;
 border: 2px solid #fff;
-background-color: #001aff;
+background-color: #a41e15;
 color: #fff;
 box-shadow: 0 5px 20px #000;
 font-weight: bold;

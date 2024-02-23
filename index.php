@@ -25,7 +25,7 @@
         <img src="assets/wheel.png" alt="Spin Logo">
       </div>
     </div>    
-    <form action="main.html">
+    <form action="submit.php" method="post">
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
