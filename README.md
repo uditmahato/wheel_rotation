@@ -4,9 +4,9 @@ Sunway Wheel Spin is an interactive web-based game where users can spin a virtua
 
 ## Features
 
-- **Wheel Spinning Mechanism:** Users can spin the virtual wheel by clicking a button, and the outcome determines the prize they receive.
+- **Wheel Spinning Mechanism:** Users can spin the virtual wheel by clicking at the center of the wheel, and the outcome determines the prize they receive.
 - **Variety of Prizes:** The game offers a range of prizes, including mugs, pens, notebooks, t-shirts, and stickers.
-- **Audio Effects:** Sound effects enhance the gaming experience, providing feedback and immersion.
+- **Audio Effects:** Sound effects enhance the gaming experience..
 - **Remote Database Connectivity:** PHP and MySQL are used to store user data.
 - **Responsive Design:** The game is designed to work seamlessly across various devices and screen sizes.
 
