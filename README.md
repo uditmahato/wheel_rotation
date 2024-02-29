@@ -12,7 +12,8 @@ Sunway Wheel Spin is an interactive web-based game where users can spin a virtua
 
 ## Technologies Used
 
-- HTML/CSS
+- HTML
+- CSS
 - JavaScript
 - PHP
 - MySQL
