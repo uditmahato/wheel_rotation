@@ -43,15 +43,17 @@ right: -30px;
 top: 50%;
 transform: translateY(-50%);
 }
-.box{
-width: 100%;
-height: 100%;
-position: relative;
-border-radius: 50%;
-border: 10px solid #000000;
-overflow: hidden;
-transition: all ease 5s;
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 50%;
+  border: 10px solid #000000;
+  overflow: hidden;
+  transition: transform 5s ease-out;
+  transform: rotate(-23deg); /* Rotate to align the arrow with the border */
 }
+
 span{
 width: 50%;
 height: 50%;
